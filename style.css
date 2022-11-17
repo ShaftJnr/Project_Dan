@@ -15,6 +15,10 @@ h1{
     margin: 0 auto; /*Means 12 and 6*/
 }
 
+.left_container_heading{
+    text-align: center;
+}
+
 .left_container{
     float: left;
     width: 50%;
@@ -22,11 +26,19 @@ h1{
     padding: 10px;
 }
 
+.right_container_heading{
+    text-align: center;
+}
+
 .right_container{
     float: left;
     width: 50%;
     /* border: 1px solid blue; */
     padding: 10px;
+}
+
+.Buttom_heading{
+    text-align: center;
 }
 
 .buttom_container{
@@ -40,16 +52,54 @@ h1{
 
 .Buttom_Left_Container{
     width: 25%;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
+    float: left;
+    padding: 10px;
 
+}
+
+.buttom_center_heading{
+    text-align: center;
 }
 
 .Buttom_Center_Container{
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     width: 50%;
+    float: left;
+    padding: 10px;
 }
 
 .Buttom_Right_Container{
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     width: 25%;
+    float: right;
+    padding: 10px;
+}
+
+.Clear__float{
+    clear: both;
+}
+
+.sub_containter{
+    text-align: center;
+}
+
+.Sub_Container_left{
+    /*border: 1px solid blue;*/
+    width: 30%;
+    float: left;
+}
+
+.sub_container_right{
+    text-align: center;
+}
+
+.Sub_Container_right{
+    /*border: 1px solid blue;*/
+    width: 30%;
+    float: right;
+}
+
+.Clear___float{
+    clear: both;
 }
