@@ -86,8 +86,9 @@ h1{
 
 .Sub_Container_left{
     /*border: 1px solid blue;*/
-    width: 30%;
+    width: 50%;
     float: left;
+    padding: 10px;
 }
 
 .sub_container_right{
@@ -96,10 +97,30 @@ h1{
 
 .Sub_Container_right{
     /*border: 1px solid blue;*/
-    width: 30%;
+    width: 50%;
     float: right;
+    padding: 10px;
 }
 
 .Clear___float{
     clear: both;
+}
+
+.sub_buttom_container{
+    text-align: center;
+}
+
+.Sub_buttom_container{
+    text-align: justify;
+    padding: 10px;
+}
+
+.sub_buttom_container_{
+    text-align: center;
+}
+
+.Sub_buttom_container_{
+    padding: 10px;
+    text-align: justify;
+    font-size: 13px;
 }
