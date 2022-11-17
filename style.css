@@ -1,4 +1,4 @@
-*{
+*{ /*Wild-Card*/
     box-sizing: border-box;
 
     font-family: "Tahoma", sans-serif;
@@ -11,8 +11,8 @@ h1{
 
 .container{
     width:80%;
-    /* border: 1px solid black;  */
-    margin: 0 auto;
+    /*border: 1px solid black;*/  
+    margin: 0 auto; /*Means 12 and 6*/
 }
 
 .left_container{
@@ -36,4 +36,20 @@ h1{
 
 .clearfloat{
     clear: both;
+}
+
+.Buttom_Left_Container{
+    width: 25%;
+    border: 1px solid black;
+
+}
+
+.Buttom_Center_Container{
+    border: 1px solid black;
+    width: 50%;
+}
+
+.Buttom_Right_Container{
+    border: 1px solid black;
+    width: 25%;
 }
