@@ -2,7 +2,6 @@
     box-sizing: border-box;
 
     font-family: "Tahoma", sans-serif;
-
 }
 
 h1{
@@ -80,6 +79,8 @@ h1{
     clear: both;
 }
 
+
+/*SUB CONTAINERS*/ 
 .sub_containter{
     text-align: center;
 }
@@ -106,6 +107,7 @@ h1{
     clear: both;
 }
 
+/*SUB BUTTOM CONTAINERS*/
 .sub_buttom_container{
     text-align: center;
 }
@@ -123,4 +125,67 @@ h1{
     padding: 10px;
     text-align: justify;
     font-size: 13px;
+}
+
+/*TEXT CONTAINERS*/
+.Text{
+    text-align: center;
+}
+
+.text{
+    float: left;
+    width: 25%;
+    padding: 10px;
+
+}
+
+.Text_2{
+     text-align: center;   
+}
+
+.text_2{
+    float: left;
+    width: 25%;
+    text-align: justify;
+    padding: 10px;
+}
+
+.Text_3{
+    text-align: center;
+}
+
+.text_3{
+    float: left;
+    width: 25%;
+    text-align: justify;
+    padding: 10px;
+}
+
+.Text_4{
+    text-align: center;
+}
+
+.text_4{
+    float: left;
+    width: 25%;
+    text-align: justify;
+    padding: 10px;
+}
+
+.float_clear{
+    clear: both;
+}
+
+.moretext{
+    text-align: center;
+
+}
+
+.more-text{
+    text-align: justify;   
+}
+
+
+footer{
+    text-align: center;
 }
